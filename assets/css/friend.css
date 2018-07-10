@@ -1,0 +1,138 @@
+.outer-container {
+	width: 850px;
+	border: 1px solid #C4CDE0;
+	border-radius: 2px;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	background: #fff;
+}
+.fb-search-container {
+	background: #F6F7F8;
+	border-bottom: 1px solid #C4CDE0;
+	height: 44px;
+}
+.heading {
+	font-size: 16px;
+	font-weight: bold;
+	width: 70%;
+	color: #333333;
+	margin-left: 20px;
+}
+.heading img {
+	background-position:left;
+	margin-top:10px;
+	float:left;
+}
+.float {
+	float: left;
+	line-height: 44px;
+}
+.textbox {
+	margin-bottom: 5px;
+}
+.textbox input {
+	border: 1px solid #C4CDE0;
+	outline: medium none;
+	padding: 2px;
+	width: 190px;
+	font-size: 11px;
+	height: 22px;
+}
+.fb-friends-list {
+	margin: 20px 25px;
+}
+.inner_profile {
+	border: 1px solid #CCC;
+	width: 48.5%;
+	height: 100px;
+	margin-bottom:10px;
+	margin-top: 2px;
+	margin-right: 10px;
+	float:left;
+}
+.name {
+	margin-left: 10px;
+	margin-top:30px;
+}
+.name a {
+	font-size: 12px;
+	font-weight: bold;
+	color: #3B5998;
+	cursor: pointer;
+	text-decoration: none;
+}
+.name a:hover {
+	text-decoration: underline;
+}
+
+#result { font-size:12px; font-family:Verdana, Geneva, sans-serif; margin:10px; } 
+.friend_span{
+	font-size:20px;
+	padding-left:5px;
+}
+
+.outer-container .friend-page-action-btn{
+    margin-right: 10px;
+    float: right;
+    margin-top: 35px;
+    width: 100px;
+    border: 1px solid #00000059;
+   }
+
+   //menu
+
+.dropdown {
+color: #555;
+margin: 3px -22px 0 0;
+width: 143px;
+position: relative;
+height: 17px;
+text-align:left;
+}
+.submenu
+{
+background: #fff;
+position: absolute;
+
+z-index: 100;
+width: 135px;
+display: none;
+margin-left: 230px;
+margin-top: 70px;
+border-radius: 6px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+.dropdown  li a {
+   
+    color: #555555;
+    display: block;
+    font-family: arial;
+    font-weight: bold;
+    padding: 6px 15px;
+  cursor: pointer;
+	text-decoration:none;
+
+}
+
+.dropdown li a:hover{
+    background:#155FB0;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+.root
+{
+list-style:none;
+margin:0px;
+padding:0px;
+font-size: 11px;
+padding: 11px 0 0 0px;
+border-top:1px solid #dedede;
+	
+	
+}

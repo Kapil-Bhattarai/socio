@@ -1,0 +1,198 @@
+*{
+	margin:0px;
+	padding:0px;
+	width:auto;
+	height:auto;
+	font-family:helvetica,arial,sans-serif;
+	
+}
+
+body{
+	
+	font-size: 13px;
+	background: #f6f6f6;
+	background-color:#E9EAED;
+	font-family: Helvetica;
+}
+
+/*-------------------------INDEX PAGE CSS STARTS---------------------------------*/
+.wrapper-socio{
+	width:100%;
+}
+
+/*---------------------------Main HEADER WRAPPER START-------------------------------*/
+.header-wrapper-socio{
+	width:100%;
+	background:#3b5998;
+	position: fixed;
+	top:0;
+	z-index: 10000;
+	height: 90px;
+
+}
+.nav-container-socio{
+	width:95%;
+	margin:0px auto;
+}
+
+.nav-socio{
+	width:100%;
+	
+}
+
+.nav-left-socio{
+	
+	display: block;
+	float:left;
+}
+.nav-right-socio{
+	    width: 33%;
+margin-top: 20px;
+	float:right;
+	color:white;
+}
+
+.nav-left-socio img{
+	float: left;
+	display: block;
+}
+.nav-socio ul{
+	    list-style-type: none;
+
+}
+.nav-socio ul li{
+	line-height: 50px;
+	float:left;
+	margin-right: 0px;
+	padding: 0px 10px;
+	cursor:pointer;
+
+	transition: all 200ms ease-in-out;
+}
+.nav-socio ul li a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.nav-socio .fa{
+	font-size: 20px;
+	color:black;
+}
+.nav-socio ul li .fa-twitter{
+	margin-right: 4px;
+	color: #5ab2f5;
+	font-size: 22px;
+	position: relative;
+	top: 2px;
+}
+ .fa{
+	margin-left: 5px;
+}
+
+#search_box{
+	
+	width: 55%;
+	padding: 3px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#search_icon{
+	
+	height: 24px;
+	padding: 3px;
+
+	
+}
+
+#login-left-socio{
+	float : left;
+}
+
+#login-right-rightside-socio{
+	float: right;
+}
+#login-right-leftside-socio{
+	float:left;
+}
+
+#login-right-socio{
+	float:right;
+	    margin-top: 17px;
+}
+
+#login-right-leftside-socio{
+	margin-right: 5px;
+}
+
+#logingButton{
+	  background-color: #4267b2;
+     border-color: #29487d69; 
+     color:white;
+     padding: 3px;
+
+}
+#logingButton:hover{
+	background: #3b5998;
+}
+
+/* body part of index.php */
+.nav-container-body-socio{
+	margin-top: 120px;
+
+}
+.nav-left-body-socio{
+	float: left;
+}
+.nav-right-body-socio{
+	float:right;
+    margin-right: 200px;
+
+}
+
+
+#signup-bottom-firstname-id,#signup-bottom-lastname-id{
+	/*width:39%;
+	margin-left: 15px;*/
+}
+
+#signup-bottom-firstname-id{
+	/*float:left;*/
+
+}
+#signup-bottom-lastname-id{
+	margin-left: 15px;
+}
+.nav-right-body-socio input{
+padding: 10px;
+border-radius: 5px;
+margin-top: 10px;
+
+
+}
+#signup-bottom-re-email-id,#signup-bottom-password-id,#signup-bottom-email-id{
+	width: 100%;
+}
+
+.nav-right-body-socio select{
+	padding: 5px;
+}
+.nav-left-body-socio{
+
+		margin-left: 100px;
+	
+
+}
+#signup-bottom-submit-id{
+	    background: linear-gradient(#67ae55, #578843);
+	    margin-left: 50px;
+}
+#signup-bottom-submit-id:hover{
+	 background: linear-gradient(#79bc64, #578843);
+}
+
+.form-radio{
+	margin-left: 50px;
+}
+  
+
+

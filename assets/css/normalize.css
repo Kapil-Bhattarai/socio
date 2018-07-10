@@ -1,0 +1,24 @@
+.post-left-box .dd-selected-text{
+	display: none;
+}
+.post-left-box .dd-select{
+	border:0px !important;
+	width: 50px !important;
+	border-radius: 0px !important;
+	opacity: 0.5;
+}
+
+.post-left-box ul li{
+	float:left;
+}
+.post-left-box #undefined{
+	width:auto !important;
+}
+.post-left-box #undefined li{
+	float: none;
+	text-decoration: none !important;
+}
+.post-left-box #undefined a:hover{
+	
+	text-decoration: none !important;
+}

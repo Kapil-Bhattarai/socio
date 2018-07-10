@@ -1,0 +1,1 @@
+<?php echo 'find friends'; ?>
